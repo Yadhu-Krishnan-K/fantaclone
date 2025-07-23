@@ -294,8 +294,8 @@ main .video iframe {
 
 .followSection {
     margin-top: 100px;
-    width: 100%;
     max-width:  1089px;
+    width: 100%;
     background-color: #fc4d0f;
     color: white;
     display: flex;
@@ -305,7 +305,7 @@ main .video iframe {
 }
  .followSection h1 {
     color: var(--h3Color);
-    font-weight: 900;
+    /* font-weight: bolder; */
  }
  .socialMediaSec {
     height: auto;
@@ -429,6 +429,9 @@ main .video iframe {
 }
 @media (max-width: 1090px) {
     .updates {
+        width: 90%;
+    }
+    .followSection {
         width: 90%;
     }
 }
